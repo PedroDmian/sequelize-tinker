@@ -1,4 +1,4 @@
-const {workDir} = require('./path')
+import { workDir } from './path.js';
 
 const configs = {
   MODELS_PATH: 'models-path',

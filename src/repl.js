@@ -1,7 +1,6 @@
-const stubber = require('async-repl/stubber')
-
-const repl = require('repl')
-const logger = require('./log')
+import stubber from 'async-repl/stubber';
+import repl from 'repl';
+import logger from './log.js';
 
 class Repl {
   constructor(props) {

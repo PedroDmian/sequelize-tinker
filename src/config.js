@@ -1,5 +1,5 @@
-const Conf = require('conf')
-const constants = require('./constants')
+import Conf from 'conf';
+import constants from './constants.js';
 
 const config = new Conf()
 

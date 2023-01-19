@@ -1,5 +1,5 @@
-const fs = require('fs')
-const logger = require('./log')
+import fs from 'fs';
+import logger from './log.js';
 
 const checkRequire = path => {
   try {

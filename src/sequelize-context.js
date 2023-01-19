@@ -1,6 +1,5 @@
-
-const {secureRequire} = require('./secure-require')
-const config = require('./config')
+import { secureRequire } from './secure-require.js';
+import config from './config.js';
 const models = secureRequire(config.getModelsPath()) // todo: import setting
 const sequelize = models && models.sequelize
 

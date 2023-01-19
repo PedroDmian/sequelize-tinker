@@ -1,9 +1,8 @@
-const {Command, flags} = require('@oclif/command')
-const jq = require('node-jq')
-
-const Repl = require('./repl')
-const {initializeContext} = require('./sequelize-context')
-const {setModelsPath, getAll} = require('./config')
+import { Command, flags } from '@oclif/command';
+import jq from 'node-jq';
+import Repl from './repl.js';
+import { initializeContext } from './sequelize-context.js';
+import { setModelsPath, getAll } from './config.js';
 
 const _initialFlags = {}
 
